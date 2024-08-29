@@ -1,0 +1,162 @@
+
+.contenedor{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto;
+}
+
+.lugar-logo{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 100%;
+    max-height: 80px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.lugar-boton{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.btn-outline-dark{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 120px;
+}
+
+
+#info{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    margin-top: 10px;
+}
+
+.titulo-pagina{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    grid-column: 1/6;
+}
+
+.informacion-pagina{
+    text-align: center;
+    justify-content: center;
+    grid-column: 2/5;
+}
+
+.lugar-peliculas-series{
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    display: contents;
+}
+
+.titulo-secundario{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.pelicula-serie{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.portada{
+    grid-column: 2/5;
+    max-width: 100%;
+    max-height: auto;
+    background-color: antiquewhite;
+}
+
+.imagen{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.resumen{
+    justify-content: center;
+    text-align: center;
+    grid-column: 2/5;
+    max-width: 100%;
+    max-height: auto;
+    background-color: antiquewhite;
+}
+
+
+.nombre{
+    background-color: beige;
+    border: solid black;
+    margin-bottom: 10px;
+    grid-column: 2/5;
+}
+
+.valoracion{
+    background-color: rgb(220, 223, 245);
+    border: solid black;
+    margin-bottom: 50px;
+    grid-column: 2/5;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.seccion-ubicacion{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.ubi{
+    background-color: violet;
+}
+
+.mapa{
+    background-color: beige;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#pie{
+    background-color: antiquewhite;
+    display:grid;
+    text-align: center;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+}
+
+.red{
+    text-align: center;
+    max-width: 200px;
+    max-height: 40px;
+}
