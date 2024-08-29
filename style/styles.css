@@ -90,6 +90,7 @@
     max-width: 100%;
     max-height: auto;
     background-color: antiquewhite;
+    justify-content: center;
 }
 
 .imagen{
@@ -135,16 +136,6 @@ ul{
     text-align: center;
 }
 
-.ubi{
-    background-color: violet;
-}
-
-.mapa{
-    background-color: beige;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
 
 #pie{
     background-color: antiquewhite;
